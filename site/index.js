@@ -1,4 +1,4 @@
-const app = require('./lib/')({
+const app = require('../lib/')({
   source: 'content',
   theme: 'site'
 })
