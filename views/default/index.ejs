@@ -1,0 +1,42 @@
+<%- include('head') %>
+
+<h1 class="title">春秋一语</h1>
+<p class="subtitle">涉猎阅旧闻，暂使心魂澄</p>
+<div class="nav">
+  <a href="/">主页</a> · 
+  <a href="/nav.html">导航</a> · 
+  <a href="/">关于</a>
+</div>
+
+<main>
+
+<nav>
+  <ul class="posts-list">
+    <% list.forEach(function (item) { %>
+      <li>
+        <h2>
+          <a href="<%- item.link  %>"><%= item.meta.title %></a>
+        </h2>
+        <div>
+          <time datetime="<%= item.meta.formatDate %>"><%= item.meta.formatDate %></time>
+        </div>
+      </li>
+    <% }) %>
+  </ul>
+</nav>
+
+</main>
+
+<% if (pager) { %>
+  <nav class="pager">
+    <% if (pager.prevPage) { %>
+      <a href="<%- `${tag ? `/tag/${tag}` : ''}/page/` + pager.prevPage %>">上页</a>
+    <% } %>
+      <a href="<%- `${tag ? `/tag/${tag}` : ''}/page/1` %>">首页</a>
+    <% if (pager.nextPage) { %>
+      <a href="<%- `${tag ? `/tag/${tag}` : ''}/page/` + pager.nextPage %>">下页</a>
+    <% } %>
+  </nav>
+<% } %>
+
+<%- include('footer') %>
