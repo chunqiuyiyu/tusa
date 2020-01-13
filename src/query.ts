@@ -31,7 +31,6 @@ const query = async (
       if (params.dateFormat) {
         article.meta.formatDate = moment
           .unix(article.meta.date!)
-          .utc()
           .format(params.dateFormat)
       }
       return article
@@ -71,7 +70,7 @@ const query = async (
       ...item,
       meta: {
         ...item.meta,
-        formatDate: moment.unix(item.meta.date!).utc().format(params.dateFormat)
+        formatDate: moment.unix(item.meta.date!).format(params.dateFormat)
       }
     }))
   }
