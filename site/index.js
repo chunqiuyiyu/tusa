@@ -16,7 +16,7 @@ app.get('\^/$|\/docs|\/examples', async (req, res) => {
 })
 
 app.get('/*', (req, res) => {
-  res.status(404)
+  res.sendStatus(404)
 })
 
 app.start()
