@@ -15,7 +15,7 @@
 
 > Tiny Flat-File Content Management System.
 
-### 🏠 [Homepage](https://github.com/chunqiuyiyu/tusa)
+### 🏠 [Homepage](https://github.com/chunqiuyiyu/tusa) | 
 
 ## Prerequisites
 
