@@ -15,7 +15,7 @@
 
 > Tiny Flat-File Content Management System.
 
-### 🏠 [Homepage](https://www.chunqiuyiyu.com/tusa/) | 📖 [Docs](https://www.chunqiuyiyu.com/tusa/docs)
+### 🏠 [Homepage](https://www.chunqiuyiyu.com/tusa/) | 📖 [Docs](https://www.chunqiuyiyu.com/tusa/docs) | 💡 [Examples](https://www.chunqiuyiyu.com/tusa/examples)
 
 ## Prerequisites
 
