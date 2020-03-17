@@ -29,7 +29,7 @@ npm install
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/chunqiuyiyu/tusa/issues). You can also take a look at the [contributing guide](https://github.com/chunqiuyiyu/tusa/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!Feel free to check [issues page](https://github.com/chunqiuyiyu/tusa/issues).
 
 ## Show your support
 
