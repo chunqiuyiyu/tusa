@@ -8,7 +8,7 @@ import moment from 'moment'
 import marked from 'marked'
 import fm from 'front-matter'
 
-import { Article } from './types'
+import { Article, Meta } from './types'
 
 /**
  * fs Promises API
