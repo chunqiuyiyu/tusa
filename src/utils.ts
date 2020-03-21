@@ -46,8 +46,8 @@ export const walk = async (
       const fileData = await readFile(filepath)
       const name = basename(file, extname(file))
 
-      const { attributes, body } = fm(fileData.toString())
-      const meta = { ...attributes }
+      const { attributes, body }: { attributes: Meta, body: string } = fm(fileData.toString())
+      const meta = Object.assign({}, attributes) as Meta
       // Customize meta when front-matter is empty
       meta.date = moment.utc(
         attributes && attributes.date ? attributes.date : filestat.mtime
