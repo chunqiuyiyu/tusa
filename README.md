@@ -24,7 +24,7 @@
 ## Install
 
 ```sh
-npm install
+npm install tusa
 ```
 
 ## 🤝 Contributing
